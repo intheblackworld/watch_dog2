@@ -1,0 +1,33 @@
+<%= form_for(@effect) do |f| %>
+  <% if @effect.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@effect.errors.count, "error") %> prohibited this effect from being saved:</h2>
+
+      <ul>
+      <% @effect.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+  <div class="col-md-4 col-md-offset-4 down-mid">
+  <h1>新增實機效果</h1>
+
+  <div class="form-group">
+    <%= f.label :title %><br>
+    <%= f.text_field :title, class: 'form-control', placeholder: '輸入標題' %><br>
+    <%= f.label :image %>
+    <%= f.file_field :image, class: 'form-control' %>
+  </div>
+
+  <div class="row">
+  <div class="col-md-4">
+  <div class="actions">
+    <%= f.button :submit, class: 'btn btn-primary btn-lg' %>
+    <hr>
+    <%= link_to '回上頁', effects_path %>
+  </div>
+  </div>  
+  </div>
+  </div>
+<% end %>
