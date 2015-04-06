@@ -32,7 +32,7 @@
       <ul class="nav navbar-nav ">
         <li><%= link_to '精選產品', items_list_all_path %></li> 
         <li><%= link_to '實機效果', effects_path %></li> 
-        <li><%= link_to '安裝案例', installs_path %></li>
+        <!--<li><%= link_to '安裝案例', installs_path %></li>  -->
         <li><%= link_to '售後服務',after_survise_path %></li>
         <li><%= link_to '服務項目',offer_path %></li>
 
@@ -42,7 +42,7 @@
       <ul class="nav navbar-nav navbar-right">
         <li><%= link_to '聯絡我們',contact_us_path %></li>
         <% if !current_user %>
-          <li> <%= link_to("註冊", new_user_registration_path) %> </li>
+           <!--<li> <%= link_to("註冊", new_user_registration_path) %> </li> -->
           <li> <%= link_to("公司登入", new_user_session_path) %> </li>
         <% else %>    
         <li class="dropdown">
