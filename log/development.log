@@ -5756,3 +5756,470 @@ ActionController::RoutingError (No route matches [GET] "/items/js/jquery.js"):
   Rendered /Users/intheblackworld/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (158.7ms)
   Rendered /Users/intheblackworld/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
   Rendered /Users/intheblackworld/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (166.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-06 11:30:22 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (64.5ms)
+DEPRECATION WARNING: Extra .css in SASS file is unnecessary. Rename /Users/intheblackworld/case/watch_dog2/app/assets/stylesheets/home-set.css.sass to /Users/intheblackworld/case/watch_dog2/app/assets/stylesheets/home-set.sass. (called from _app_views_layouts_application_html_erb__57620016489872747_70151920975180 at /Users/intheblackworld/case/watch_dog2/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SASS file is unnecessary. Rename /Users/intheblackworld/case/watch_dog2/app/assets/stylesheets/effect-set.css.sass to /Users/intheblackworld/case/watch_dog2/app/assets/stylesheets/effect-set.sass. (called from _app_views_layouts_application_html_erb__57620016489872747_70151920975180 at /Users/intheblackworld/case/watch_dog2/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SASS file is unnecessary. Rename /Users/intheblackworld/case/watch_dog2/app/assets/stylesheets/color-theme.css.sass to /Users/intheblackworld/case/watch_dog2/app/assets/stylesheets/color-theme.sass. (called from _app_views_layouts_application_html_erb__57620016489872747_70151920975180 at /Users/intheblackworld/case/watch_dog2/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SASS file is unnecessary. Rename /Users/intheblackworld/case/watch_dog2/app/assets/stylesheets/jumbotron-set.css.sass to /Users/intheblackworld/case/watch_dog2/app/assets/stylesheets/jumbotron-set.sass. (called from _app_views_layouts_application_html_erb__57620016489872747_70151920975180 at /Users/intheblackworld/case/watch_dog2/app/views/layouts/application.html.erb:5)
+WARNING on line 10 of /Users/intheblackworld/case/watch_dog2/app/assets/stylesheets/jumbotron-set.css.sass:
+This selector doesn't have any properties and will not be rendered.
+
+DEPRECATION WARNING: Extra .css in SASS file is unnecessary. Rename /Users/intheblackworld/case/watch_dog2/app/assets/stylesheets/home-set.css.sass to /Users/intheblackworld/case/watch_dog2/app/assets/stylesheets/home-set.sass. (called from _app_views_layouts_application_html_erb__57620016489872747_70151920975180 at /Users/intheblackworld/case/watch_dog2/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SASS file is unnecessary. Rename /Users/intheblackworld/case/watch_dog2/app/assets/stylesheets/effect-set.css.sass to /Users/intheblackworld/case/watch_dog2/app/assets/stylesheets/effect-set.sass. (called from _app_views_layouts_application_html_erb__57620016489872747_70151920975180 at /Users/intheblackworld/case/watch_dog2/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SASS file is unnecessary. Rename /Users/intheblackworld/case/watch_dog2/app/assets/stylesheets/color-theme.css.sass to /Users/intheblackworld/case/watch_dog2/app/assets/stylesheets/color-theme.sass. (called from _app_views_layouts_application_html_erb__57620016489872747_70151920975180 at /Users/intheblackworld/case/watch_dog2/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SASS file is unnecessary. Rename /Users/intheblackworld/case/watch_dog2/app/assets/stylesheets/jumbotron-set.css.sass to /Users/intheblackworld/case/watch_dog2/app/assets/stylesheets/jumbotron-set.sass. (called from _app_views_layouts_application_html_erb__57620016489872747_70151920975180 at /Users/intheblackworld/case/watch_dog2/app/views/layouts/application.html.erb:5)
+Completed 200 OK in 2461ms (Views: 2450.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-06 11:30:24 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-04-06 11:30:25 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-04-06 11:30:25 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-04-06 11:30:25 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-04-06 11:30:25 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-04-06 11:30:25 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-04-06 11:30:25 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-04-06 11:30:25 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-04-06 11:30:25 +0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-04-06 11:30:25 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-06 11:30:25 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-04-06 11:30:25 +0800
+
+
+Started GET "/assets/admins.js?body=1" for 127.0.0.1 at 2015-04-06 11:30:25 +0800
+
+
+Started GET "/assets/classifications.js?body=1" for 127.0.0.1 at 2015-04-06 11:30:25 +0800
+
+
+Started GET "/assets/companies.js?body=1" for 127.0.0.1 at 2015-04-06 11:30:25 +0800
+
+
+Started GET "/assets/effects.js?body=1" for 127.0.0.1 at 2015-04-06 11:30:25 +0800
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-04-06 11:30:25 +0800
+
+
+Started GET "/assets/installs.js?body=1" for 127.0.0.1 at 2015-04-06 11:30:25 +0800
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2015-04-06 11:30:25 +0800
+
+
+Started GET "/assets/specials.js?body=1" for 127.0.0.1 at 2015-04-06 11:30:25 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-06 11:30:25 +0800
+
+
+Started GET "/javascripts/rails.js" for 127.0.0.1 at 2015-04-06 11:30:25 +0800
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/rails.js"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  /Users/intheblackworld/Library/Application Support/Pow/Versions/0.5.0/node_modules/nack/lib/nack/server.rb:155:in `handle'
+  /Users/intheblackworld/Library/Application Support/Pow/Versions/0.5.0/node_modules/nack/lib/nack/server.rb:109:in `rescue in block (2 levels) in start'
+  /Users/intheblackworld/Library/Application Support/Pow/Versions/0.5.0/node_modules/nack/lib/nack/server.rb:106:in `block (2 levels) in start'
+  /Users/intheblackworld/Library/Application Support/Pow/Versions/0.5.0/node_modules/nack/lib/nack/server.rb:96:in `each'
+  /Users/intheblackworld/Library/Application Support/Pow/Versions/0.5.0/node_modules/nack/lib/nack/server.rb:96:in `block in start'
+  /Users/intheblackworld/Library/Application Support/Pow/Versions/0.5.0/node_modules/nack/lib/nack/server.rb:76:in `loop'
+  /Users/intheblackworld/Library/Application Support/Pow/Versions/0.5.0/node_modules/nack/lib/nack/server.rb:76:in `start'
+  /Users/intheblackworld/Library/Application Support/Pow/Versions/0.5.0/node_modules/nack/lib/nack/server.rb:12:in `run'
+  /Users/intheblackworld/Library/Application Support/Pow/Versions/0.5.0/node_modules/nack/bin/nack_worker:4:in `<main>'
+
+
+  Rendered /Users/intheblackworld/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/intheblackworld/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (6.0ms)
+  Rendered /Users/intheblackworld/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (8.6ms)
+  Rendered /Users/intheblackworld/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (97.3ms)
+
+
+Started GET "/assets/intro1.png" for 127.0.0.1 at 2015-04-06 11:30:25 +0800
+
+
+Started GET "/assets/sting2.png" for 127.0.0.1 at 2015-04-06 11:30:25 +0800
+
+
+Started GET "/assets/hide2.png" for 127.0.0.1 at 2015-04-06 11:30:25 +0800
+
+
+Started GET "/assets/2.png" for 127.0.0.1 at 2015-04-06 11:30:25 +0800
+
+
+Started GET "/assets/phone.png" for 127.0.0.1 at 2015-04-06 11:30:25 +0800
+
+
+Started GET "/assets/company.png" for 127.0.0.1 at 2015-04-06 11:30:25 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-06 11:30:27 +0800
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-04-06 11:30:27 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-04-06 11:30:27 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-04-06 11:30:27 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-04-06 11:30:27 +0800
+
+
+Started GET "/assets/header2.jpg" for 127.0.0.1 at 2015-04-06 11:30:27 +0800
+
+
+Started GET "/assets/intro1.png" for 127.0.0.1 at 2015-04-06 11:30:27 +0800
+
+
+Started GET "/assets/2.png" for 127.0.0.1 at 2015-04-06 11:30:27 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-06 11:31:04 +0800
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (49.7ms)
+DEPRECATION WARNING: Extra .css in SASS file is unnecessary. Rename /Users/intheblackworld/case/watch_dog2/app/assets/stylesheets/home-set.css.sass to /Users/intheblackworld/case/watch_dog2/app/assets/stylesheets/home-set.sass. (called from _app_views_layouts_application_html_erb__57620016489872747_70151920975180 at /Users/intheblackworld/case/watch_dog2/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SASS file is unnecessary. Rename /Users/intheblackworld/case/watch_dog2/app/assets/stylesheets/effect-set.css.sass to /Users/intheblackworld/case/watch_dog2/app/assets/stylesheets/effect-set.sass. (called from _app_views_layouts_application_html_erb__57620016489872747_70151920975180 at /Users/intheblackworld/case/watch_dog2/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SASS file is unnecessary. Rename /Users/intheblackworld/case/watch_dog2/app/assets/stylesheets/color-theme.css.sass to /Users/intheblackworld/case/watch_dog2/app/assets/stylesheets/color-theme.sass. (called from _app_views_layouts_application_html_erb__57620016489872747_70151920975180 at /Users/intheblackworld/case/watch_dog2/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SASS file is unnecessary. Rename /Users/intheblackworld/case/watch_dog2/app/assets/stylesheets/jumbotron-set.css.sass to /Users/intheblackworld/case/watch_dog2/app/assets/stylesheets/jumbotron-set.sass. (called from _app_views_layouts_application_html_erb__57620016489872747_70151920975180 at /Users/intheblackworld/case/watch_dog2/app/views/layouts/application.html.erb:5)
+WARNING on line 10 of /Users/intheblackworld/case/watch_dog2/app/assets/stylesheets/jumbotron-set.css.sass:
+This selector doesn't have any properties and will not be rendered.
+
+DEPRECATION WARNING: Extra .css in SASS file is unnecessary. Rename /Users/intheblackworld/case/watch_dog2/app/assets/stylesheets/home-set.css.sass to /Users/intheblackworld/case/watch_dog2/app/assets/stylesheets/home-set.sass. (called from _app_views_layouts_application_html_erb__57620016489872747_70151920975180 at /Users/intheblackworld/case/watch_dog2/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SASS file is unnecessary. Rename /Users/intheblackworld/case/watch_dog2/app/assets/stylesheets/effect-set.css.sass to /Users/intheblackworld/case/watch_dog2/app/assets/stylesheets/effect-set.sass. (called from _app_views_layouts_application_html_erb__57620016489872747_70151920975180 at /Users/intheblackworld/case/watch_dog2/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SASS file is unnecessary. Rename /Users/intheblackworld/case/watch_dog2/app/assets/stylesheets/color-theme.css.sass to /Users/intheblackworld/case/watch_dog2/app/assets/stylesheets/color-theme.sass. (called from _app_views_layouts_application_html_erb__57620016489872747_70151920975180 at /Users/intheblackworld/case/watch_dog2/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SASS file is unnecessary. Rename /Users/intheblackworld/case/watch_dog2/app/assets/stylesheets/jumbotron-set.css.sass to /Users/intheblackworld/case/watch_dog2/app/assets/stylesheets/jumbotron-set.sass. (called from _app_views_layouts_application_html_erb__57620016489872747_70151920975180 at /Users/intheblackworld/case/watch_dog2/app/views/layouts/application.html.erb:5)
+Completed 200 OK in 2113ms (Views: 2111.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-06 11:31:06 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-06 11:31:06 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-04-06 11:31:06 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-04-06 11:31:06 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-04-06 11:31:06 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-04-06 11:31:06 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-04-06 11:31:06 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-04-06 11:31:06 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-04-06 11:31:06 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-04-06 11:31:06 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-04-06 11:31:06 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-04-06 11:31:06 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-04-06 11:31:06 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-04-06 11:31:06 +0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-04-06 11:31:06 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-06 11:31:06 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-04-06 11:31:06 +0800
+
+
+Started GET "/assets/admins.js?body=1" for 127.0.0.1 at 2015-04-06 11:31:06 +0800
+
+
+Started GET "/assets/classifications.js?body=1" for 127.0.0.1 at 2015-04-06 11:31:06 +0800
+
+
+Started GET "/assets/companies.js?body=1" for 127.0.0.1 at 2015-04-06 11:31:06 +0800
+
+
+Started GET "/assets/effects.js?body=1" for 127.0.0.1 at 2015-04-06 11:31:06 +0800
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-04-06 11:31:06 +0800
+
+
+Started GET "/assets/installs.js?body=1" for 127.0.0.1 at 2015-04-06 11:31:06 +0800
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2015-04-06 11:31:06 +0800
+
+
+Started GET "/assets/specials.js?body=1" for 127.0.0.1 at 2015-04-06 11:31:06 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-06 11:31:06 +0800
+
+
+Started GET "/javascripts/rails.js" for 127.0.0.1 at 2015-04-06 11:31:06 +0800
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/rails.js"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  /Users/intheblackworld/Library/Application Support/Pow/Versions/0.5.0/node_modules/nack/lib/nack/server.rb:155:in `handle'
+  /Users/intheblackworld/Library/Application Support/Pow/Versions/0.5.0/node_modules/nack/lib/nack/server.rb:109:in `rescue in block (2 levels) in start'
+  /Users/intheblackworld/Library/Application Support/Pow/Versions/0.5.0/node_modules/nack/lib/nack/server.rb:106:in `block (2 levels) in start'
+  /Users/intheblackworld/Library/Application Support/Pow/Versions/0.5.0/node_modules/nack/lib/nack/server.rb:96:in `each'
+  /Users/intheblackworld/Library/Application Support/Pow/Versions/0.5.0/node_modules/nack/lib/nack/server.rb:96:in `block in start'
+  /Users/intheblackworld/Library/Application Support/Pow/Versions/0.5.0/node_modules/nack/lib/nack/server.rb:76:in `loop'
+  /Users/intheblackworld/Library/Application Support/Pow/Versions/0.5.0/node_modules/nack/lib/nack/server.rb:76:in `start'
+  /Users/intheblackworld/Library/Application Support/Pow/Versions/0.5.0/node_modules/nack/lib/nack/server.rb:12:in `run'
+  /Users/intheblackworld/Library/Application Support/Pow/Versions/0.5.0/node_modules/nack/bin/nack_worker:4:in `<main>'
+
+
+  Rendered /Users/intheblackworld/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/intheblackworld/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (7.8ms)
+  Rendered /Users/intheblackworld/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (9.3ms)
+  Rendered /Users/intheblackworld/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (112.8ms)
+
+
+Started GET "/assets/intro1.png" for 127.0.0.1 at 2015-04-06 11:31:06 +0800
+
+
+Started GET "/assets/sting2.png" for 127.0.0.1 at 2015-04-06 11:31:07 +0800
+
+
+Started GET "/assets/hide2.png" for 127.0.0.1 at 2015-04-06 11:31:07 +0800
+
+
+Started GET "/assets/2.png" for 127.0.0.1 at 2015-04-06 11:31:07 +0800
+
+
+Started GET "/assets/phone.png" for 127.0.0.1 at 2015-04-06 11:31:07 +0800
+
+
+Started GET "/assets/header2.jpg" for 127.0.0.1 at 2015-04-06 11:31:07 +0800
+
+
+Started GET "/assets/company.png" for 127.0.0.1 at 2015-04-06 11:31:07 +0800
+
+
+Started GET "/" for 127.0.0.1 at 2015-04-06 11:32:14 +0800
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (61.8ms)
+DEPRECATION WARNING: Extra .css in SASS file is unnecessary. Rename /Users/intheblackworld/case/watch_dog2/app/assets/stylesheets/home-set.css.sass to /Users/intheblackworld/case/watch_dog2/app/assets/stylesheets/home-set.sass. (called from _app_views_layouts_application_html_erb__57620016489872747_70151920975180 at /Users/intheblackworld/case/watch_dog2/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SASS file is unnecessary. Rename /Users/intheblackworld/case/watch_dog2/app/assets/stylesheets/effect-set.css.sass to /Users/intheblackworld/case/watch_dog2/app/assets/stylesheets/effect-set.sass. (called from _app_views_layouts_application_html_erb__57620016489872747_70151920975180 at /Users/intheblackworld/case/watch_dog2/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SASS file is unnecessary. Rename /Users/intheblackworld/case/watch_dog2/app/assets/stylesheets/color-theme.css.sass to /Users/intheblackworld/case/watch_dog2/app/assets/stylesheets/color-theme.sass. (called from _app_views_layouts_application_html_erb__57620016489872747_70151920975180 at /Users/intheblackworld/case/watch_dog2/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SASS file is unnecessary. Rename /Users/intheblackworld/case/watch_dog2/app/assets/stylesheets/jumbotron-set.css.sass to /Users/intheblackworld/case/watch_dog2/app/assets/stylesheets/jumbotron-set.sass. (called from _app_views_layouts_application_html_erb__57620016489872747_70151920975180 at /Users/intheblackworld/case/watch_dog2/app/views/layouts/application.html.erb:5)
+WARNING on line 10 of /Users/intheblackworld/case/watch_dog2/app/assets/stylesheets/jumbotron-set.css.sass:
+This selector doesn't have any properties and will not be rendered.
+
+DEPRECATION WARNING: Extra .css in SASS file is unnecessary. Rename /Users/intheblackworld/case/watch_dog2/app/assets/stylesheets/home-set.css.sass to /Users/intheblackworld/case/watch_dog2/app/assets/stylesheets/home-set.sass. (called from _app_views_layouts_application_html_erb__57620016489872747_70151920975180 at /Users/intheblackworld/case/watch_dog2/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SASS file is unnecessary. Rename /Users/intheblackworld/case/watch_dog2/app/assets/stylesheets/effect-set.css.sass to /Users/intheblackworld/case/watch_dog2/app/assets/stylesheets/effect-set.sass. (called from _app_views_layouts_application_html_erb__57620016489872747_70151920975180 at /Users/intheblackworld/case/watch_dog2/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SASS file is unnecessary. Rename /Users/intheblackworld/case/watch_dog2/app/assets/stylesheets/color-theme.css.sass to /Users/intheblackworld/case/watch_dog2/app/assets/stylesheets/color-theme.sass. (called from _app_views_layouts_application_html_erb__57620016489872747_70151920975180 at /Users/intheblackworld/case/watch_dog2/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SASS file is unnecessary. Rename /Users/intheblackworld/case/watch_dog2/app/assets/stylesheets/jumbotron-set.css.sass to /Users/intheblackworld/case/watch_dog2/app/assets/stylesheets/jumbotron-set.sass. (called from _app_views_layouts_application_html_erb__57620016489872747_70151920975180 at /Users/intheblackworld/case/watch_dog2/app/views/layouts/application.html.erb:5)
+Completed 200 OK in 2210ms (Views: 2209.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-04-06 11:32:16 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-04-06 11:32:16 +0800
+
+
+Started GET "/assets/bootstrap/alert.js?body=1" for 127.0.0.1 at 2015-04-06 11:32:16 +0800
+
+
+Started GET "/assets/bootstrap/carousel.js?body=1" for 127.0.0.1 at 2015-04-06 11:32:16 +0800
+
+
+Started GET "/assets/bootstrap/collapse.js?body=1" for 127.0.0.1 at 2015-04-06 11:32:16 +0800
+
+
+Started GET "/assets/bootstrap/modal.js?body=1" for 127.0.0.1 at 2015-04-06 11:32:16 +0800
+
+
+Started GET "/assets/bootstrap/affix.js?body=1" for 127.0.0.1 at 2015-04-06 11:32:16 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy.js?body=1" for 127.0.0.1 at 2015-04-06 11:32:16 +0800
+
+
+Started GET "/assets/bootstrap/button.js?body=1" for 127.0.0.1 at 2015-04-06 11:32:17 +0800
+
+
+Started GET "/assets/bootstrap/dropdown.js?body=1" for 127.0.0.1 at 2015-04-06 11:32:17 +0800
+
+
+Started GET "/assets/bootstrap/transition.js?body=1" for 127.0.0.1 at 2015-04-06 11:32:17 +0800
+
+
+Started GET "/assets/bootstrap/tab.js?body=1" for 127.0.0.1 at 2015-04-06 11:32:17 +0800
+
+
+Started GET "/assets/bootstrap/tooltip.js?body=1" for 127.0.0.1 at 2015-04-06 11:32:17 +0800
+
+
+Started GET "/assets/bootstrap/popover.js?body=1" for 127.0.0.1 at 2015-04-06 11:32:17 +0800
+
+
+Started GET "/assets/bootstrap-sprockets.js?body=1" for 127.0.0.1 at 2015-04-06 11:32:17 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-04-06 11:32:17 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-04-06 11:32:17 +0800
+
+
+Started GET "/assets/admins.js?body=1" for 127.0.0.1 at 2015-04-06 11:32:17 +0800
+
+
+Started GET "/assets/classifications.js?body=1" for 127.0.0.1 at 2015-04-06 11:32:17 +0800
+
+
+Started GET "/assets/companies.js?body=1" for 127.0.0.1 at 2015-04-06 11:32:17 +0800
+
+
+Started GET "/assets/effects.js?body=1" for 127.0.0.1 at 2015-04-06 11:32:17 +0800
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at 2015-04-06 11:32:17 +0800
+
+
+Started GET "/assets/installs.js?body=1" for 127.0.0.1 at 2015-04-06 11:32:17 +0800
+
+
+Started GET "/assets/items.js?body=1" for 127.0.0.1 at 2015-04-06 11:32:17 +0800
+
+
+Started GET "/assets/specials.js?body=1" for 127.0.0.1 at 2015-04-06 11:32:17 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-04-06 11:32:17 +0800
+
+
+Started GET "/javascripts/rails.js" for 127.0.0.1 at 2015-04-06 11:32:17 +0800
+
+ActionController::RoutingError (No route matches [GET] "/javascripts/rails.js"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  /Users/intheblackworld/Library/Application Support/Pow/Versions/0.5.0/node_modules/nack/lib/nack/server.rb:155:in `handle'
+  /Users/intheblackworld/Library/Application Support/Pow/Versions/0.5.0/node_modules/nack/lib/nack/server.rb:109:in `rescue in block (2 levels) in start'
+  /Users/intheblackworld/Library/Application Support/Pow/Versions/0.5.0/node_modules/nack/lib/nack/server.rb:106:in `block (2 levels) in start'
+  /Users/intheblackworld/Library/Application Support/Pow/Versions/0.5.0/node_modules/nack/lib/nack/server.rb:96:in `each'
+  /Users/intheblackworld/Library/Application Support/Pow/Versions/0.5.0/node_modules/nack/lib/nack/server.rb:96:in `block in start'
+  /Users/intheblackworld/Library/Application Support/Pow/Versions/0.5.0/node_modules/nack/lib/nack/server.rb:76:in `loop'
+  /Users/intheblackworld/Library/Application Support/Pow/Versions/0.5.0/node_modules/nack/lib/nack/server.rb:76:in `start'
+  /Users/intheblackworld/Library/Application Support/Pow/Versions/0.5.0/node_modules/nack/lib/nack/server.rb:12:in `run'
+  /Users/intheblackworld/Library/Application Support/Pow/Versions/0.5.0/node_modules/nack/bin/nack_worker:4:in `<main>'
+
+
+  Rendered /Users/intheblackworld/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/intheblackworld/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (7.1ms)
+  Rendered /Users/intheblackworld/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.1ms)
+  Rendered /Users/intheblackworld/.rvm/gems/ruby-2.1.3/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (94.8ms)
+
+
+Started GET "/assets/intro1.png" for 127.0.0.1 at 2015-04-06 11:32:17 +0800
+
+
+Started GET "/assets/sting2.png" for 127.0.0.1 at 2015-04-06 11:32:17 +0800
+
+
+Started GET "/assets/hide2.png" for 127.0.0.1 at 2015-04-06 11:32:17 +0800
+
+
+
+
+Started GET "/assets/company.png" for 127.0.0.1 at 2015-04-06 11:32:17 +0800
+Started GET "/assets/phone.png" for 127.0.0.1 at 2015-04-06 11:32:17 +0800
+
+
+Started GET "/assets/header2.jpg" for 127.0.0.1 at 2015-04-06 11:32:17 +0800
+
+
+Started GET "/assets/2.png" for 127.0.0.1 at 2015-04-06 11:32:17 +0800
