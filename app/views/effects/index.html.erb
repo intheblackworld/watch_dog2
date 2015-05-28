@@ -19,22 +19,132 @@
 
 <!--迭代器 實機特效版 -->
 
-    <% @effects.each_slice(3) do |effects| %>
+
      
         <div class="row">
-         <% effects.each do |effect| %>
+         <% @effects.each do |effect| %>
               <div class="col-md-4 effect-item">
                   <a href="#">
-                    <%= image_tag effect.image.url(:medium) %>
+                    <%= image_tag effect.image.url(:medium), :class => "img-responsive match-to-col"  %>
+
                   </a>
-                    <% if !current_user %>
+                 <!--   <% if !current_user %>
+                    <%else%>
+                    <%end%> -->
+              </div>
+              <% if effect.image2.present? %>
+               <div class="col-md-4 effect-item">
+                  <a href="#">
+                    <%= image_tag effect.image2.url(:medium), :class => "img-responsive match-to-col"  %>
+                  </a>
+                  <% else %>
+                  <% end %>
+                 <!--   <% if !current_user %>
                     <%else%>
 
                     <td><%= link_to '修改', edit_effect_path(effect) %></td>
                     <td><%= link_to '刪除', effect, method: :delete, data: { confirm: '你確定嗎?' } %></td>
-                    <%end%>
+                    <%end%> -->
               </div>
-          <% end %>           
+                <% if effect.image3.present? %>
+               <div class="col-md-4 effect-item">
+                  <a href="#">
+                    <%= image_tag effect.image3.url(:medium), :class => "img-responsive match-to-col"  %>
+                  </a>
+                  <% else %>
+                  <% end %>
+                 <!--   <% if !current_user %>
+                    <%else%>
+
+                    <td><%= link_to '修改', edit_effect_path(effect) %></td>
+                    <td><%= link_to '刪除', effect, method: :delete, data: { confirm: '你確定嗎?' } %></td>
+                    <%end%> -->
+              </div>
+                <% if effect.image4.present? %>
+               <div class="col-md-4 effect-item">
+                  <a href="#">
+                    <%= image_tag effect.image4.url(:medium), :class => "img-responsive match-to-col"  %>
+                  </a>
+                  <% else %>
+                  <% end %>
+                 <!--   <% if !current_user %>
+                    <%else%>
+
+                    <td><%= link_to '修改', edit_effect_path(effect) %></td>
+                    <td><%= link_to '刪除', effect, method: :delete, data: { confirm: '你確定嗎?' } %></td>
+                    <%end%> -->
+              </div>
+                <% if effect.image5.present? %>
+               <div class="col-md-4 effect-item">
+                  <a href="#">
+                    <%= image_tag effect.image5.url(:medium), :class => "img-responsive match-to-col"  %>
+                  </a>
+                  <% else %>
+                  <% end %>
+                 <!--   <% if !current_user %>
+                    <%else%>
+
+                    <td><%= link_to '修改', edit_effect_path(effect) %></td>
+                    <td><%= link_to '刪除', effect, method: :delete, data: { confirm: '你確定嗎?' } %></td>
+                    <%end%> -->
+              </div>
+                <% if effect.image6.present? %>
+               <div class="col-md-4 effect-item">
+                  <a href="#">
+                    <%= image_tag effect.image6.url(:medium), :class => "img-responsive match-to-col"  %>
+                  </a>
+                  <% else %>
+                  <% end %>
+                 <!--   <% if !current_user %>
+                    <%else%>
+
+                    <td><%= link_to '修改', edit_effect_path(effect) %></td>
+                    <td><%= link_to '刪除', effect, method: :delete, data: { confirm: '你確定嗎?' } %></td>
+                    <%end%> -->
+              </div>
+                <% if effect.image7.present? %>
+               <div class="col-md-4 effect-item">
+                  <a href="#">
+                    <%= image_tag effect.image7.url(:medium), :class => "img-responsive match-to-col"  %>
+                  </a>
+                  <% else %>
+                  <% end %>
+                 <!--   <% if !current_user %>
+                    <%else%>
+
+                    <td><%= link_to '修改', edit_effect_path(effect) %></td>
+                    <td><%= link_to '刪除', effect, method: :delete, data: { confirm: '你確定嗎?' } %></td>
+                    <%end%> -->
+              </div>
+                <% if effect.image8.present? %>
+               <div class="col-md-4 effect-item">
+                  <a href="#">
+                    <%= image_tag effect.image8.url(:medium), :class => "img-responsive match-to-col"  %>
+                  </a>
+                  <% else %>
+                  <% end %>
+                 <!--   <% if !current_user %>
+                    <%else%>
+
+                    <td><%= link_to '修改', edit_effect_path(effect) %></td>
+                    <td><%= link_to '刪除', effect, method: :delete, data: { confirm: '你確定嗎?' } %></td>
+                    <%end%> -->
+              </div>
+                <% if effect.image9.present? %>
+               <div class="col-md-4 effect-item">
+                  <a href="#">
+                    <%= image_tag effect.image9.url(:medium), :class => "img-responsive match-to-col"  %>
+                  </a>
+                  <% else %>
+                  <% end %>
+                 <!--   <% if !current_user %>
+                    <%else%>
+
+                    <td><%= link_to '修改', edit_effect_path(effect) %></td>
+                    <td><%= link_to '刪除', effect, method: :delete, data: { confirm: '你確定嗎?' } %></td>
+                    <%end%> -->
+              </div>
+
         </div>
       
     <%end %>

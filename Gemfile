@@ -6,8 +6,9 @@ gem 'sass-rails', '>= 3.2'        #套用sass
 gem "paperclip", "~> 4.2"         #圖片上傳
 gem 'devise'
 gem 'kaminari'                    #用來製造分頁的gem
-
-
+gem 'rmagick'
+gem 'therubyracer'
+gem "less-rails"
 gem 'rails', '4.1.8'
 
 group :development, :test do
@@ -25,7 +26,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0',          group: :doc
-gem 'spring',        group: :development
+gem 'spring', '~> 1.3.4',        group: :development
 
 
 # bundle exec rake doc:rails generates the API under doc/api.

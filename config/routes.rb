@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
 
+  resources :pictures
+
+  resources :galleries
+
   resources :companies
 
   devise_for :users
@@ -14,7 +18,7 @@ Rails.application.routes.draw do
  get '/items/list_all' , to: 'items#list_all'
  get '/admin', to: "admins#manage"
  get '/admin/effect_list', to: "admins#effect_list"
- get '/admin/install_list', to: "admins#install_list"
+ get '/admin/gallery_list', to: "admins#gallery_list"
  get '/admin/special_list', to: "admins#special_list"
  get '/admin/item_list', to: "admins#item_list"  
 

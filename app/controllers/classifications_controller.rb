@@ -1,5 +1,5 @@
 class ClassificationsController < ApplicationController
-  #before_action :set_classification, only: [:show, :edit, :update, :destroy]
+  before_action :set_classification, only: [:show, :edit, :update, :destroy]
   #before_action :company_set
   # GET /classifications
   # GET /classifications.json

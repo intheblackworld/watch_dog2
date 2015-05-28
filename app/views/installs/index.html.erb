@@ -27,10 +27,6 @@
                 <a href="#">
                     <%= image_tag install.image.url(:medium) %>
                 </a>
-                <h3 style="color:#428bca">
-                    <%= install.area %>
-                </h3>
-                <p><%= install.description %></p>
                     <% if !current_user %>
                     <%else%>
                     <td><%= link_to '修改', edit_install_path(install) %></td>

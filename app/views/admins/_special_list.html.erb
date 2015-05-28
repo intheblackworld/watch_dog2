@@ -1,0 +1,24 @@
+<div class="tab-pane active" id="#special_list">
+      <table class="table table-striped">
+    <tr><br><%= link_to '新增特惠方案', new_special_path, class: 'btn btn-info btn-lg ' %><br></tr>
+    <tr>
+
+        <td><h2>專案名稱</h2></td>
+        <td><h2>縮圖</h2></td>
+        <td><h2>修改</h2></td>
+        <td><h2>刪除</h2></td>
+    </tr>
+
+    <% @specials.each do |special| %>
+
+    <tr>  
+
+      <td><h1><%= special.title %></h1></td>  
+      <td><%= image_tag special.image.url(:thumb) %></td>
+                    <td><%= link_to '修改', edit_special_path(special) %></td>
+                    <td><%= link_to '刪除', special, method: :delete, data: { confirm: '你確定嗎?' } %></td>
+    </tr>
+
+          <% end %> 
+    </table>
+</div> 

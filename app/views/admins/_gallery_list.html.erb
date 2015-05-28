@@ -1,0 +1,21 @@
+<div class="tab-pane active" id="#gallery_list">
+      <table class="table table-striped">
+    <tr><br><%= link_to '新增安裝案例', new_gallery_path, class: 'btn btn-info btn-lg ' %><br></tr>
+    <tr>
+        <td><h2>案例名稱</h2></td>
+
+        <td><h2>修改</h2></td>
+        <td><h2>刪除</h2></td>
+    </tr>
+
+    <% @galleries.each do |gallery| %>
+
+    <tr>  
+      <td><%= gallery.name %></td>
+                    <td><%= link_to '修改', edit_gallery_path(gallery) %></td>
+                    <td><%= link_to '刪除', gallery, method: :delete, data: { confirm: '你確定嗎?' } %></td>
+    </tr>
+
+          <% end %> 
+    </table>
+</div> 

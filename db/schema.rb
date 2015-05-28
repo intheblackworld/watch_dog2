@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150325090258) do
+ActiveRecord::Schema.define(version: 20150528085957) do
 
   create_table "classifications", force: true do |t|
     t.string   "title"
@@ -33,6 +33,46 @@ ActiveRecord::Schema.define(version: 20150325090258) do
     t.string   "image_content_type"
     t.integer  "image_file_size"
     t.datetime "image_updated_at"
+    t.string   "image2_file_name"
+    t.string   "image2_content_type"
+    t.integer  "image2_file_size"
+    t.datetime "image2_updated_at"
+    t.string   "image3_file_name"
+    t.string   "image3_content_type"
+    t.integer  "image3_file_size"
+    t.datetime "image3_updated_at"
+    t.string   "image4_file_name"
+    t.string   "image4_content_type"
+    t.integer  "image4_file_size"
+    t.datetime "image4_updated_at"
+    t.string   "image5_file_name"
+    t.string   "image5_content_type"
+    t.integer  "image5_file_size"
+    t.datetime "image5_updated_at"
+    t.string   "image6_file_name"
+    t.string   "image6_content_type"
+    t.integer  "image6_file_size"
+    t.datetime "image6_updated_at"
+    t.string   "image7_file_name"
+    t.string   "image7_content_type"
+    t.integer  "image7_file_size"
+    t.datetime "image7_updated_at"
+    t.string   "image8_file_name"
+    t.string   "image8_content_type"
+    t.integer  "image8_file_size"
+    t.datetime "image8_updated_at"
+    t.string   "image9_file_name"
+    t.string   "image9_content_type"
+    t.integer  "image9_file_size"
+    t.datetime "image9_updated_at"
+  end
+
+  create_table "galleries", force: true do |t|
+    t.string   "name"
+    t.integer  "cover"
+    t.string   "token"
+    t.datetime "created_at"
+    t.datetime "updated_at"
   end
 
   create_table "installs", force: true do |t|
@@ -53,6 +93,19 @@ ActiveRecord::Schema.define(version: 20150325090258) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "classification_id"
+    t.string   "image_file_name"
+    t.string   "image_content_type"
+    t.integer  "image_file_size"
+    t.datetime "image_updated_at"
+  end
+
+  create_table "pictures", force: true do |t|
+    t.string   "description"
+    t.integer  "gallery_id"
+    t.string   "gallery_token"
+    t.string   "image"
+    t.datetime "created_at"
+    t.datetime "updated_at"
     t.string   "image_file_name"
     t.string   "image_content_type"
     t.integer  "image_file_size"

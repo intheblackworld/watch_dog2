@@ -27,7 +27,7 @@ skip_before_action :verify_authenticity_token, if: :js_request?
   end
 
   def special_list
-     @specials = Special.all.order("created_at DESC")
+    @specials = Special.all.order("created_at DESC")
     respond_to do |format|
       format.html
       format.js
@@ -38,6 +38,14 @@ skip_before_action :verify_authenticity_token, if: :js_request?
     @classifications = Classification.all
 
     @items = Item.order('created_at DESC').all
+    respond_to do |format|
+      format.html
+      format.js
+    end
+  end
+
+  def gallery_list
+    @galleries = Gallery.all.order("created_at DESC")
     respond_to do |format|
       format.html
       format.js
